@@ -1,6 +1,53 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$headingsFont: "Open Sans", sans-serif;
+$textFont: "Poppins", sans-serif;
+$noColor: transparent;
+$darkBackground: linear-gradient(9.58deg, #0f141e 17.06%, #1f2839 91.34%);
+$lightBackground: #f2f2f2;
+$whiteBackground: #ffffff;
+$textDark: #0f141e;
+$textLight: #ffffff;
+
+body,
+html {
   box-shadow: none;
   background: #efefef;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headingsFont;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p,
+span,
+a,
+button {
+  font-family: $textFont;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.main__nav {
+  background: $darkBackground;
+  padding: 1rem 0;
+  color: $textLight;
+  a {
+    color: $textLight !important;
+  }
+}
+
+.header {
+  background: $darkBackground;
 }
