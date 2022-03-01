@@ -3,15 +3,21 @@ import { Col, Container, Row } from "reactstrap";
 
 const About = () => {
   return (
-    <>
-      <Container>
+    <div className="about">
+      <Container className="p-5">
         <Row>
-          <Col>
-            <h1>About</h1>
+          <Col xs="12" className="text-center">
+            <h5>Who We Are</h5>
+            <h1>Work with Us, Not for Us</h1>
+            <p>
+              There are more than 100 definitions of marketing. But we
+              understand that marketing is what happens in every company here
+              and now: finding new solutions and launching new products.
+            </p>
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 

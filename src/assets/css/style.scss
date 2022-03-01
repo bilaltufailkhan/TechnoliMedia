@@ -5,10 +5,13 @@ $headingsFont: "Open Sans", sans-serif;
 $textFont: "Poppins", sans-serif;
 $noColor: transparent;
 $darkBackground: linear-gradient(9.58deg, #0f141e 17.06%, #1f2839 91.34%);
-$lightBackground: #f2f2f2;
+$lightBackground: rgba(255, 0, 46, 0.1);
 $whiteBackground: #ffffff;
 $textDark: #0f141e;
 $textLight: #ffffff;
+$ctaBackground: #ff002e;
+$textGray: #606062;
+$boxShadow: 5px 5px 10px #8395a7;
 
 body,
 html {
@@ -36,7 +39,27 @@ a,
 button {
   font-family: $textFont;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.5;
+}
+
+input,
+textarea {
+  background: transparent !important;
+  outline: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid $ctaBackground !important;
+  border-radius: 0 !important;
+  font-family: $textFont;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: none !important;
+}
+
+label {
+  font-family: $textFont;
+  font-weight: 500;
+  font-size: 1rem;
+  color: $textGray;
 }
 
 .main__nav {
@@ -50,4 +73,186 @@ button {
 
 .header {
   background: $darkBackground;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+
+  h1 {
+    color: $textLight;
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+  }
+  p {
+    color: $textLight;
+    margin-bottom: 2.5rem;
+  }
+  .get__started {
+    background: $ctaBackground;
+    color: $textLight;
+    font-weight: 500;
+    border-radius: 0;
+    font-size: 1rem;
+    &:hover {
+      background: darken($color: $ctaBackground, $amount: 5%);
+      color: $textLight;
+    }
+  }
+  a {
+    background: $ctaBackground;
+    color: $textLight;
+    font-weight: 500;
+    border-radius: 0;
+    font-size: 1rem;
+    text-decoration: none;
+    &:hover {
+      background: darken($color: $ctaBackground, $amount: 5%);
+      color: $textLight;
+      text-decoration: none;
+    }
+  }
+  i {
+    margin-left: 1rem;
+  }
+}
+
+.header__socials {
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  a {
+    background: transparent;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    &:hover {
+      background: transparent;
+      text-decoration: none;
+    }
+  }
+  i {
+    margin-right: 1rem;
+  }
+  .headerSocials__line {
+    border-left: 2px solid white;
+    height: 25px;
+    width: auto;
+    position: absolute;
+    bottom: -19%;
+    left: 18.8%;
+  }
+}
+
+.about {
+  background: $lightBackground;
+  height: auto;
+  display: grid;
+  place-content: center;
+  padding: 3rem 0;
+  h5 {
+    margin-bottom: 1.5rem;
+  }
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-weight: 500;
+    padding: 1rem 10rem;
+    font-size: 1.3rem;
+    color: $textGray;
+    line-height: 2;
+  }
+}
+
+.services {
+  h1 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+.service__card {
+  background: #d8d8d8;
+  padding: 4rem;
+  box-shadow: $boxShadow;
+  h6 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  img {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+  i {
+    margin-left: 1rem;
+  }
+  a {
+    color: $textDark;
+    text-decoration: none;
+    transition: all 0.5s;
+    &:hover {
+      text-decoration: none;
+      color: $textDark;
+      transform: scale(10%);
+    }
+  }
+}
+
+.portfolio {
+  h1 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+.owl-theme {
+  .item {
+  }
+}
+
+.contact {
+  background: $lightBackground;
+  .get__started {
+    background: $ctaBackground;
+    color: $textLight;
+    font-weight: 500;
+    border-radius: 0;
+    font-size: 1rem;
+    outline: 0;
+    border: none;
+    padding: 0.9rem 2.5rem;
+    &:hover {
+      background: darken($color: $ctaBackground, $amount: 5%);
+      color: $textLight;
+    }
+  }
+  .fa-at,
+  .fa-phone {
+    margin-bottom: 1.5rem;
+    color: $ctaBackground;
+    font-size: 1.5rem;
+  }
+  .send__icon {
+    margin-left: 1rem;
+  }
+}
+
+.testimonials {
+  background: $darkBackground;
+  h1 {
+    color: $textLight;
+  }
+  p {
+    color: $textLight;
+  }
+}
+@media screen and (max-width: 768px) {
 }

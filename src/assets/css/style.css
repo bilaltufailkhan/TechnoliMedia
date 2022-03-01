@@ -27,7 +27,28 @@ a,
 button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.5;
+}
+
+input,
+textarea {
+  background: transparent !important;
+  outline: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid #ff002e !important;
+  border-radius: 0 !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #606062;
 }
 
 .main__nav {
@@ -42,5 +63,219 @@ button {
 
 .header {
   background: linear-gradient(9.58deg, #0f141e 17.06%, #1f2839 91.34%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.header p {
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+.header .get__started {
+  background: #ff002e;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.header .get__started:hover {
+  background: #e60029;
+  color: #ffffff;
+}
+
+.header a {
+  background: #ff002e;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 0;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background: #e60029;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header i {
+  margin-left: 1rem;
+}
+
+.header__socials {
+  position: absolute;
+  bottom: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__socials a {
+  background: transparent;
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.header__socials a:hover {
+  background: transparent;
+  text-decoration: none;
+}
+
+.header__socials i {
+  margin-right: 1rem;
+}
+
+.header__socials .headerSocials__line {
+  border-left: 2px solid white;
+  height: 25px;
+  width: auto;
+  position: absolute;
+  bottom: -19%;
+  left: 18.8%;
+}
+
+.about {
+  background: rgba(255, 0, 46, 0.1);
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  padding: 3rem 0;
+}
+
+.about h5 {
+  margin-bottom: 1.5rem;
+}
+
+.about h1 {
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  font-weight: 500;
+  padding: 1rem 10rem;
+  font-size: 1.3rem;
+  color: #606062;
+  line-height: 2;
+}
+
+.services h1 {
+  font-size: 3.5rem;
+}
+
+.services p {
+  font-size: 1.3rem;
+}
+
+.service__card {
+  background: #d8d8d8;
+  padding: 4rem;
+  -webkit-box-shadow: 5px 5px 10px #8395a7;
+          box-shadow: 5px 5px 10px #8395a7;
+}
+
+.service__card h6 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.service__card img {
+  margin-bottom: 1rem;
+}
+
+.service__card p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.service__card i {
+  margin-left: 1rem;
+}
+
+.service__card a {
+  color: #0f141e;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.service__card a:hover {
+  text-decoration: none;
+  color: #0f141e;
+  -webkit-transform: scale(10%);
+          transform: scale(10%);
+}
+
+.portfolio h1 {
+  font-size: 3.5rem;
+}
+
+.portfolio p {
+  font-size: 1.3rem;
+}
+
+.contact {
+  background: rgba(255, 0, 46, 0.1);
+}
+
+.contact .get__started {
+  background: #ff002e;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 0;
+  font-size: 1rem;
+  outline: 0;
+  border: none;
+  padding: 0.9rem 2.5rem;
+}
+
+.contact .get__started:hover {
+  background: #e60029;
+  color: #ffffff;
+}
+
+.contact .fa-at,
+.contact .fa-phone {
+  margin-bottom: 1.5rem;
+  color: #ff002e;
+  font-size: 1.5rem;
+}
+
+.contact .send__icon {
+  margin-left: 1rem;
+}
+
+.testimonials {
+  background: linear-gradient(9.58deg, #0f141e 17.06%, #1f2839 91.34%);
+}
+
+.testimonials h1 {
+  color: #ffffff;
+}
+
+.testimonials p {
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

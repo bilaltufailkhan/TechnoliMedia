@@ -23,11 +23,11 @@ const MainNav = () => {
           </NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">All Projects</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+                Get a Quote
               </NavLink>
             </NavItem>
           </Nav>
