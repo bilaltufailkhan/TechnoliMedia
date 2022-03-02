@@ -6,14 +6,27 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import userImg from "../assets/img/user.png";
+import blockQuote from "../assets/img/real/blockquote.png";
 
 const Testimonials = () => {
   return (
     <div className="testimonials py-5">
       <Container className="py-5">
-        <Row>
-          <Col>
-            <h1>Testimonials</h1>
+        <Row className="justify-content-center align-items-center py-4 mb-4">
+          <Col xs="10">
+            <h1>Client Reviews</h1>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod.
+            </span>
+          </Col>
+          <Col xs="2">
+            <img
+              className="block__quote"
+              src={blockQuote}
+              height="100px"
+              width="auto"
+            />
           </Col>
         </Row>
         <Row className="py-5">
@@ -35,10 +48,10 @@ const Testimonials = () => {
                   Technoli Media.
                 </p>
                 <div className="customer__info">
-                  <img alt="" src={userImg} width="10px" height="auto" />
+                  <img alt="" src={userImg} />
                   <div className="customer__creds">
                     <p>Jon Doe</p>
-                    <p>Web Dev</p>
+                    <span>Web Dev</span>
                   </div>
                 </div>
               </div>
@@ -49,10 +62,10 @@ const Testimonials = () => {
                   Technoli Media.
                 </p>
                 <div className="customer__info">
-                  <img alt="" src={userImg} width="10px" height="auto" />
+                  <img alt="" src={userImg} />
                   <div className="customer__creds">
                     <p>Jon Doe</p>
-                    <p>Web Dev</p>
+                    <span>Web Dev</span>
                   </div>
                 </div>
               </div>
@@ -63,10 +76,10 @@ const Testimonials = () => {
                   Technoli Media.
                 </p>
                 <div className="customer__info">
-                  <img alt="" src={userImg} width="10px" height="auto" />
+                  <img alt="" src={userImg} />
                   <div className="customer__creds">
                     <p>Jon Doe</p>
-                    <p>Web Dev</p>
+                    <span>Web Dev</span>
                   </div>
                 </div>
               </div>
@@ -77,10 +90,10 @@ const Testimonials = () => {
                   Technoli Media.
                 </p>
                 <div className="customer__info">
-                  <img alt="" src={userImg} width="auto" height="auto" />
+                  <img alt="" src={userImg} />
                   <div className="customer__creds">
                     <p>Jon Doe</p>
-                    <p>Web Dev</p>
+                    <span>Web Dev</span>
                   </div>
                 </div>
               </div>

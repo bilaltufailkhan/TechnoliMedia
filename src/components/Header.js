@@ -8,7 +8,7 @@ const Header = () => {
     <div className="vh-100 header">
       <Container className="">
         <Row className="justify-content-center">
-          <Col md="6" sm="12" className="align-items-center pr-5">
+          <Col md="5" sm="12" className="align-items-center pr-5">
             <h1>Marketing Agency</h1>
             <p>
               We are a creative team of passionate people, that provides
@@ -21,7 +21,7 @@ const Header = () => {
               <i class="fa-solid fa-arrow-right"></i>
             </Link>
           </Col>
-          <Col md="6" sm="12" className="align-items-center"></Col>
+          <Col md="7" sm="12" className="align-items-center"></Col>
         </Row>
         <div className="header__socials">
           <a href="#" target="_blank">

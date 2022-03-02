@@ -6,12 +6,15 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import imgPlaceholder from "../assets/img/imgplaceholder.png";
+import portfolioOne from "../assets/img/real/portfolio1.png";
+import portfolioTwo from "../assets/img/real/portfolio2.png";
+import portfolioThree from "../assets/img/real/portfolio3.png";
 
 const Portfolio = () => {
   return (
     <>
       <Container className="portfolio py-5">
-        <Row className="justify-content-center">
+        <Row className="justify-content-center align-items-center">
           <Col md="4" sm="12" className="py-5">
             <h1>Our Portfolio</h1>
           </Col>
@@ -31,21 +34,18 @@ const Portfolio = () => {
               margin={20}
               nav={false}
               touchDrag
-              items={3}
+              items={2}
               dots={false}
               autoPlay
             >
               <div class="item">
-                <img src={imgPlaceholder} width="100%" height="auto" />
+                <img src={portfolioOne} width="100%" height="auto" />
               </div>
               <div class="item">
-                <img src={imgPlaceholder} width="100%" height="auto" />
+                <img src={portfolioTwo} width="100%" height="auto" />
               </div>
               <div class="item">
-                <img src={imgPlaceholder} width="100%" height="auto" />
-              </div>
-              <div class="item">
-                <img src={imgPlaceholder} width="100%" height="auto" />
+                <img src={portfolioThree} width="100%" height="auto" />
               </div>
             </OwlCarousel>
           </Col>

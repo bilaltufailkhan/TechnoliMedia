@@ -10,7 +10,7 @@ import {
   NavLink,
 } from "reactstrap";
 
-// import logo from "../assets/img/logo.png";
+import logo from "../assets/img/real/logo-white.svg";
 
 const MainNav = () => {
   return (
@@ -18,8 +18,8 @@ const MainNav = () => {
       <Navbar color="light" light expand="md" className="main__nav fixed-top">
         <Container>
           <NavbarBrand href="/">
-            {/* <img src={logo} width="40px" height="auto" /> */}
-            Technoli Media
+            <img src={logo} width="auto" height="40px" />
+            {/* Technoli Media */}
           </NavbarBrand>
           <Nav className="ml-auto" navbar>
             <NavItem>

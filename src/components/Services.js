@@ -7,7 +7,7 @@ const Services = (props) => {
   return (
     <>
       <Container className="py-5 services">
-        <Row className="justify-content-center">
+        <Row className="justify-content-center align-items-center">
           <Col md="4" sm="12" className="p-5">
             <h1>Our Services</h1>
           </Col>

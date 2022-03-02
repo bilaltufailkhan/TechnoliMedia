@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="224px" height="108px" viewBox="0 0 224 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo-2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Technoli-Media---Landing-page" transform="translate(-166.000000, -10360.000000)">
+            <g id="Footer" transform="translate(0.000000, 10251.333333)">
+                <g id="top" transform="translate(166.666667, 108.925238)">
+                    <g id="logo-2" transform="translate(0.000000, 0.000000)">
+                        <g id="Group-4">
+                            <g id="Group">
+                                <polygon id="Rectangle" fill="#FFFFFF" points="18.5219139 30.7311029 23.2846917 33.9694341 18.5219139 52.4080958"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="23.2846917 33.9694341 23.2846917 52.4080958 18.5219139 52.4080958"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="7.14416678 38.7277984 14.8836808 51.4167699 7.14416678 45.7331681"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="0 0 18.5219139 12.5435716 18.5219139 30.7311029"></polygon>
+                                <polygon id="Rectangle" fill="#FFFFFF" transform="translate(7.441840, 13.829994) scale(-1, -1) translate(-7.441840, -13.829994) " points="0 -4.9134008e-14 14.8836808 9.48567939 14.8836808 27.6599875"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="7.14416678 22.6683189 14.8836808 27.6599875 7.14416678 37.6703841"></polygon>
+                                <polygon id="Rectangle" fill="#FFFFFF" points="7.14416678 37.6703841 14.8836808 27.6599875 14.8836808 51.4167699 7.14416678 39.0511545"></polygon>
+                                <polygon id="Rectangle" fill="#FFFFFF" points="18.5219139 12.5435716 34.7285885 22.6683189 18.5219139 30.7311029"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="18.5219139 30.7311029 34.7285885 22.6683189 23.2846917 33.9694341"></polygon>
+                            </g>
+                            <g id="Group" transform="translate(52.092883, 26.204048) scale(-1, 1) translate(-52.092883, -26.204048) translate(34.728589, 0.000000)">
+                                <polygon id="Rectangle" fill="#FFFFFF" points="18.5219139 30.7311029 23.2846917 33.9694341 18.5219139 52.4080958"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="23.2846917 33.9694341 23.2846917 52.4080958 18.5219139 52.4080958"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="7.14416678 38.7277984 14.8836808 51.4167699 7.14416678 45.7331681"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="0 0 18.5219139 12.5435716 18.5219139 30.7311029"></polygon>
+                                <polygon id="Rectangle" fill="#FFFFFF" transform="translate(7.441840, 13.829994) scale(-1, -1) translate(-7.441840, -13.829994) " points="0 -4.9134008e-14 14.8836808 9.48567939 14.8836808 27.6599875"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="7.14416678 22.6683189 14.8836808 27.6599875 7.14416678 37.6703841"></polygon>
+                                <polygon id="Rectangle" fill="#FFFFFF" points="7.14416678 37.6703841 14.8836808 27.6599875 14.8836808 51.4167699 7.14416678 39.0511545"></polygon>
+                                <polygon id="Rectangle" fill="#FFFFFF" points="18.5219139 12.5435716 34.7285885 22.6683189 18.5219139 30.7311029"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" points="18.5219139 30.7311029 34.7285885 22.6683189 23.2846917 33.9694341"></polygon>
+                            </g>
+                            <g id="Group-3" transform="translate(23.218542, 22.668319)">
+                                <polygon id="Rectangle" fill="#FFFFFF" points="11.5100465 0 22.9539433 11.3011152 0 11.3011152"></polygon>
+                                <polygon id="Rectangle" fill="#EBEBEB" transform="translate(11.543121, 15.563817) scale(1, -1) translate(-11.543121, -15.563817) " points="11.5761962 11.3011152 23.020093 19.826518 0.0661496924 19.826518"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-6" transform="translate(0.015279, 57.741429)" fill="#FFFFFF">
+                            <text id="TECHNOLI-MEDIA" font-family="Poppins-Bold, Poppins" font-size="27.0962412" font-weight="bold">
+                                <tspan x="0" y="28">TECHNOLI </tspan>
+                                <tspan x="139.464354" y="28" font-family="Poppins-Medium, Poppins" font-weight="400">MEDIA</tspan>
+                            </text>
+                            <text id="Digital-Marketing-Ag" font-family="Poppins-SemiBold, Poppins" font-size="12.5567947" font-weight="500" letter-spacing="1.65220976">
+                                <tspan x="0" y="45.6666667">Digital Marketing Agency</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
