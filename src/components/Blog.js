@@ -44,7 +44,7 @@ const Blog = (props) => {
                 <Post
                   heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
-                  url="../img/real/post1.png"
+                  url="../../../assets/img/real/post2.png"
                   date="June 12, 2021"
                 />
               </div>
@@ -52,7 +52,7 @@ const Blog = (props) => {
                 <Post
                   heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
-                  url="../img/real/post1.png"
+                  url="../assets/img/real/post3.png"
                   date="June 12, 2021"
                 />
               </div>
