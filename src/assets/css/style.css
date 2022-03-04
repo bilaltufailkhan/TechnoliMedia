@@ -541,4 +541,34 @@ label {
 #btn__xmark:hover {
   background-color: transparent !important;
 }
+
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+  .about p {
+    padding: 1rem;
+  }
+  .service__card {
+    padding: 4rem 1rem;
+  }
+  .service__card h6 {
+    font-size: 1.5rem;
+  }
+  .grow__section h1 {
+    font-size: 3rem;
+  }
+  .grow__section .growText__bottom {
+    font-size: 3rem;
+  }
+  .grow__section .growText__bottom span {
+    font-size: 3rem;
+  }
+  .links__disp {
+    display: none;
+  }
+  .block__quote {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

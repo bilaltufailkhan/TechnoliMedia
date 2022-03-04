@@ -7,6 +7,25 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Blog = (props) => {
+  const responsiveClass = {
+    0: {
+      items: 1,
+      nav: false,
+    },
+    992: {
+      items: 2,
+      nav: false,
+    },
+    768: {
+      items: 2,
+      nav: false,
+    },
+    1000: {
+      items: 3,
+      nav: false,
+      loop: true,
+    },
+  };
   return (
     <>
       <Container className="py-5 blogs">
@@ -31,6 +50,7 @@ const Blog = (props) => {
               items={3}
               dots={false}
               autoPlay
+              responsive={responsiveClass}
             >
               <div class="item">
                 <Post

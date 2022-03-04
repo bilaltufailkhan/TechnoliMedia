@@ -12,10 +12,10 @@ const Footer = () => {
     <div className="footer py-5 mt-5">
       <Container>
         <Row>
-          <Col md="4" sm="12">
+          <Col md="4" sm="12" className="my-4">
             <img src={footerLogo} height="auto" width="auto" />
           </Col>
-          <Col md="4" sm="12" className="px-5">
+          <Col md="4" sm="12" className="my-4">
             <h5>About Us</h5>
             <p>
               We are a creative team of passionate people , that provides
@@ -24,7 +24,7 @@ const Footer = () => {
               advanced online marketing methods and strategies.
             </p>
           </Col>
-          <Col md="4" sm="12" className="px-5">
+          <Col md="4" sm="12" className="my-4">
             <h5>hr@technolimedia.com</h5>
             <p>
               Send an email to Book a Free Meeting with Technoli Media Heroes
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-space-around align-items-center my-5 d-md-block d-sm-none">
+        <Row className="justify-content-space-around align-items-center my-5 links__disp">
           <Col md="12" className="d-block footer__links">
             <Link to="/">Home</Link>
             <Link to="/">About Us</Link>

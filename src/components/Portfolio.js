@@ -11,6 +11,25 @@ import portfolioTwo from "../assets/img/real/portfolio2.png";
 import portfolioThree from "../assets/img/real/portfolio3.png";
 
 const Portfolio = () => {
+  const responsiveClass = {
+    0: {
+      items: 1,
+      nav: false,
+    },
+    992: {
+      items: 2,
+      nav: false,
+    },
+    768: {
+      items: 2,
+      nav: false,
+    },
+    1000: {
+      items: 2,
+      nav: false,
+      loop: true,
+    },
+  };
   return (
     <>
       <Container className="portfolio py-5">
@@ -37,6 +56,7 @@ const Portfolio = () => {
               items={2}
               dots={false}
               autoPlay
+              responsive={responsiveClass}
             >
               <div class="item">
                 <img src={portfolioOne} width="100%" height="auto" />

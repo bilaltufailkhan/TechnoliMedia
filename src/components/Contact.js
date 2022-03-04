@@ -9,13 +9,13 @@ const Contact = () => {
           <Col md="4">
             <h1>Got A Project Or A Partnership In Mind?</h1>
             <Row className="py-5">
-              <Col xs="6">
+              <Col lg="6" md="12">
                 <i class="fa-solid fa-phone"></i>
                 <p>Phone</p>
                 <p>+92-300-0000000</p>
                 <p>+92-300-0000000</p>
               </Col>
-              <Col xs="6">
+              <Col lg="6" md="12">
                 <i class="fa-solid fa-at"></i>
                 <p>Email</p>
                 <p>info@technolimedia.com</p>
