@@ -170,6 +170,37 @@ label {
   }
 }
 
+// Blog Header
+
+.blog__header {
+  // background: $darkBackground;
+  background: url("../img/real/header-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 70vh;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+
+  h1 {
+    color: $textLight;
+    font-weight: 800;
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+  }
+  p {
+    color: $textLight;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.blog__view,
+.singlePost__view {
+  background: $lightBackground;
+}
+
 .services {
   h1 {
     font-size: 3.5rem;
@@ -334,6 +365,18 @@ label {
       text-decoration: none;
       // margin-right: 3rem;
     }
+  }
+}
+
+.post__heading {
+  color: $textDark;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $ctaBackground;
+  }
+  h6 {
+    font-size: 1.5rem;
   }
 }
 

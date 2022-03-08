@@ -184,6 +184,42 @@ label {
   line-height: 2;
 }
 
+.blog__header {
+  background: url("../img/real/header-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.blog__header h1 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.blog__header p {
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+}
+
+.blog__view,
+.singlePost__view {
+  background: #fff6cc;
+}
+
 .services h1 {
   font-size: 3.5rem;
 }
@@ -379,6 +415,20 @@ label {
 .footer .footer__links a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.post__heading {
+  color: #0f141e;
+  text-decoration: none;
+}
+
+.post__heading:hover {
+  text-decoration: none;
+  color: #ff002e;
+}
+
+.post__heading h6 {
+  font-size: 1.5rem;
 }
 
 .readMore__post {

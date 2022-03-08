@@ -6,6 +6,8 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
+import img from "../assets/img/real/post3.png";
+
 const Blog = (props) => {
   const responsiveClass = {
     0: {
@@ -56,7 +58,7 @@ const Blog = (props) => {
                 <Post
                   heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
-                  url="../img/real/post1.png"
+                  url={img}
                   date="June 12, 2021"
                 />
               </div>
@@ -64,7 +66,7 @@ const Blog = (props) => {
                 <Post
                   heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
-                  url="../../../assets/img/real/post2.png"
+                  url={img}
                   date="June 12, 2021"
                 />
               </div>
@@ -72,7 +74,7 @@ const Blog = (props) => {
                 <Post
                   heading="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim."
-                  url="../assets/img/real/post3.png"
+                  url={img}
                   date="June 12, 2021"
                 />
               </div>

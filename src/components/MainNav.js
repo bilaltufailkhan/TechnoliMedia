@@ -10,6 +10,8 @@ import {
   NavLink,
 } from "reactstrap";
 
+import { Link } from "react-router-dom";
+
 import logo from "../assets/img/real/logo-white.svg";
 
 const MainNav = () => {
@@ -39,13 +41,15 @@ const MainNav = () => {
       <>
         <Navbar color="light" light expand="md" className="main__nav fixed-top">
           <Container>
-            <NavbarBrand href="/">
+            <Link className="nav-brand" to="/">
               <img src={logo} width="auto" height="40px" />
               {/* Technoli Media */}
-            </NavbarBrand>
+            </Link>
             <Nav className="ml-auto" navbar>
               <NavItem className="mx-3">
-                <NavLink href="/components/">Home</NavLink>
+                <Link to="/" className="nav-link">
+                  Home
+                </Link>
               </NavItem>
               <NavItem className="mx-3">
                 <NavLink href="/components/">About Us</NavLink>
@@ -54,7 +58,9 @@ const MainNav = () => {
                 <NavLink href="/components/">Services</NavLink>
               </NavItem>
               <NavItem className="mx-3">
-                <NavLink href="/components/">Blog</NavLink>
+                <Link to="/blog" className="nav-link">
+                  Blog
+                </Link>
               </NavItem>
               <NavItem className="mx-3">
                 <NavLink href="/components/">Careers</NavLink>
@@ -101,9 +107,9 @@ const MainNav = () => {
                   </NavLink>
                 </li>
                 <li className="drawer__item">
-                  <NavLink to="tokenDist" className="nav-link">
+                  <Link to="/blog" className="nav-link">
                     Blog
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="drawer__item">
                   <NavLink to="tokenDist" className="nav-link">
