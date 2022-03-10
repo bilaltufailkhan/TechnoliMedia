@@ -12,6 +12,8 @@ import {
 
 import { Link } from "react-router-dom";
 
+import { Link as ScrollLink } from "react-scroll";
+
 import logo from "../assets/img/real/logo-white.svg";
 
 const MainNav = () => {
@@ -36,26 +38,44 @@ const MainNav = () => {
     setIsOpen(!isOpen);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // for smoothly scrolling
+    });
+  };
+
   if (windowWidth > 992) {
     return (
       <>
         <Navbar color="light" light expand="md" className="main__nav fixed-top">
           <Container>
-            <Link className="nav-brand" to="/">
+            <Link className="nav-brand" to="/" onClick={scrollToTop}>
               <img src={logo} width="auto" height="40px" />
               {/* Technoli Media */}
             </Link>
             <Nav className="ml-auto" navbar>
               <NavItem className="mx-3">
-                <Link to="/" className="nav-link">
+                <Link to="/" className="nav-link" onClick={scrollToTop}>
                   Home
                 </Link>
               </NavItem>
               <NavItem className="mx-3">
-                <NavLink href="/components/">About Us</NavLink>
+                <ScrollLink
+                  className="nav-link"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={100}
+                  style={{ cursor: "pointer" }}
+                >
+                  About Us
+                </ScrollLink>
               </NavItem>
               <NavItem className="mx-3">
-                <NavLink href="/components/">Services</NavLink>
+                <Link className="nav-link" to="/services">
+                  Services
+                </Link>
               </NavItem>
               <NavItem className="mx-3">
                 <Link to="/blog" className="nav-link">
@@ -63,7 +83,9 @@ const MainNav = () => {
                 </Link>
               </NavItem>
               <NavItem className="mx-3">
-                <NavLink href="/components/">Careers</NavLink>
+                <Link className="nav-link" to="/careers">
+                  Careers
+                </Link>
               </NavItem>
             </Nav>
           </Container>
@@ -91,20 +113,26 @@ const MainNav = () => {
                     <i class="fa-solid fa-xmark"></i>
                   </button>
                 </li>
-                <li className="drawer__item text-end">
-                  <NavLink to="seller" className="nav-link">
+                <li className="drawer__item text-end nav-item">
+                  <Link to="/" className="nav-link" onClick={scrollToTop}>
                     Home
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="drawer__item">
-                  <NavLink to="buyer__section" className="nav-link">
+                  <ScrollLink
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    duration={100}
+                    className="nav-link"
+                  >
                     About Us
-                  </NavLink>
+                  </ScrollLink>
                 </li>
                 <li className="drawer__item">
-                  <NavLink to="market__place" className="nav-link">
+                  <Link to="/services" className="nav-link">
                     Services
-                  </NavLink>
+                  </Link>
                 </li>
                 <li className="drawer__item">
                   <Link to="/blog" className="nav-link">
@@ -112,9 +140,9 @@ const MainNav = () => {
                   </Link>
                 </li>
                 <li className="drawer__item">
-                  <NavLink to="tokenDist" className="nav-link">
+                  <Link to="/careers" className="nav-link">
                     Careers
-                  </NavLink>
+                  </Link>
                 </li>
               </ul>
             </div>

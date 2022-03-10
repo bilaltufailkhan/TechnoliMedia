@@ -1,6 +1,8 @@
 import AuthView from "../views/auth/AuthView";
 import BlogView from "../views/BlogView";
+import CareersView from "../views/CareersView";
 import MainView from "../views/MainView";
+import ServicesView from "../views/ServicesView";
 import SinglePostView from "../views/SinglePostView";
 
 let routes = [
@@ -22,6 +24,16 @@ let routes = [
   {
     path: "/singlepost",
     component: SinglePostView,
+    layout: "main",
+  },
+  {
+    path: "/services",
+    component: ServicesView,
+    layout: "main",
+  },
+  {
+    path: "/careers",
+    component: CareersView,
     layout: "main",
   },
 ];

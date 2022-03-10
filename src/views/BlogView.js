@@ -17,7 +17,10 @@ const BlogView = () => {
             <MainNav />
           </Col>
           <Col xs="12">
-            <BlogHeader />
+            <BlogHeader
+              title="The Blogs"
+              subtitle="Read our Latest Blogs and News"
+            />
           </Col>
           <Col xs="12" className="py-5">
             <PostTwo

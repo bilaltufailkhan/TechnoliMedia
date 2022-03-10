@@ -8,6 +8,12 @@ import twitter from "../assets/img/real/twitter.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // for smoothly scrolling
+    });
+  };
   return (
     <div className="footer py-5 mt-5">
       <Container>
@@ -44,11 +50,15 @@ const Footer = () => {
         </Row>
         <Row className="justify-content-space-around align-items-center my-5 links__disp">
           <Col md="12" className="d-block footer__links">
-            <Link to="/">Home</Link>
-            <Link to="/">About Us</Link>
-            <Link to="/">Services</Link>
+            <Link to="/" onClick={scrollToTop}>
+              Home
+            </Link>
+            <Link to="/" onClick={scrollToTop}>
+              About Us
+            </Link>
+            <Link to="/services">Services</Link>
             <Link to="/blog">Blog</Link>
-            <Link to="/">Careers</Link>
+            <Link to="/careers">Careers</Link>
             <Link to="/">Let's Talk</Link>
           </Col>
         </Row>
