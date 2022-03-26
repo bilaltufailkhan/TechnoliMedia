@@ -12,17 +12,22 @@ const Grow = () => {
         <Row>
           <Col md="7" sm="12">
             <h5>Grow Your Business</h5>
-            <h1>Grow with A The Digital Marketing Agency You Can Trust.</h1>
+            <h1>
+              Take your Business to another level of perfection with Technoli
+              Media.
+            </h1>
           </Col>
         </Row>
         <Row className="my-5 py-5 justify-content-end">
           <Col md="6" sm="12" className="my-4">
             <p>
-              Our digital marketing experts have put together thousands of
-              successful digital marketing campaigns for businesses looking to
-              increase leads, phone calss, transactions, and qualified website
-              traffic. They’ll do the same for you. Request a free strategy
-              proposal and get a game plan for elite revenue generation.
+              In this digi-modern world, our Digital Marketing Experts have put
+              together thousands of successful digital marketing campaigns by
+              increasing leads, phone calls, transactions, and making the
+              traffic flow on the website. We create maximum brand awareness on
+              Social Media Platforms to reach the maximum targeted audience.
+              Don't delay any further, Request a Free Strategy Proposal and get
+              a Gain Plan for elite revenue generation.
             </p>
             <Link to="/" className="readMore__post my-5">
               Learn More &nbsp;&nbsp;{" "}
@@ -41,8 +46,8 @@ const Grow = () => {
         </Row>
         <Row className="my-1">
           <p className="growText__bottom">
-            Our tech-enabled marketing services help your business{" "}
-            <span>grow</span> online leads, calls, and <span>revenue</span>.
+            Growing your business digitally through our tech-enabled marketing
+            services. <span>(Generating Leads, Calls and Revenue)</span>
           </p>
         </Row>
       </Container>

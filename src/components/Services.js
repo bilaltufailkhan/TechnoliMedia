@@ -17,9 +17,10 @@ const Services = (props) => {
           </Col>
           <Col md="8" sm="12" className="p-5">
             <p>
-              A team of programming experts and designing professionals
-              develops, designs, markets, runs tests, and/or manages software
-              development for the below- written:
+              We are a team of programming experts and designing professionals
+              to develop, design, market, run test, and to manage Software
+              Development in the most effective ways. Our highly passionate
+              professionals can take your business to the next level.
             </p>
           </Col>
         </Row>
@@ -27,7 +28,7 @@ const Services = (props) => {
           <Col md="6" sm="12" className="p-5">
             <Cards
               title="Research and Discovery"
-              content="We will analyze direct and indirect competitor research. Research your audience and their mindset, Audit your existing channels."
+              content="We analyze direct and indirect competator research on your behalf, making a ground for your audience and their mindsets, auditing your existing channels, and providing the highly divercified discovery."
               cardImg={researchImg}
             />
           </Col>
@@ -35,7 +36,7 @@ const Services = (props) => {
             <Cards
               title="Marketing Strategy"
               cardImg={marketingImg}
-              content="Setting goals, and KPIs to be able to measure success and ROI. Marketing strategy using the findings from the digital audit."
+              content="Our Marketing Experts set goals, and KPIs to measure success and ROI in order to evalute the efficiency or profitability of an investment. Our Marketing Strategy involves the usage of our findings from the digital audit to grow your buisness digitally."
             />
           </Col>
         </Row>
@@ -44,14 +45,14 @@ const Services = (props) => {
             <Cards
               title="Blockchain Development"
               cardImg={blockchainImg}
-              content="A blockchain is a decentralized digital ledger that saves transactions on thousands of computers around the globe."
+              content="Our Experts provide a decentralized digital ledger: Blockchain, that saves transactions on thousands of computers around the globe. It provides a transparent solution for digital proof of honorship, collectability, transfer of value, governance, and accessability."
             />
           </Col>
           <Col md="6" sm="12" className="p-5">
             <Cards
               title="Design Management"
               cardImg={designImg}
-              content="Design management encompasses the ongoing processes, business decisions, and strategies that enable innovation."
+              content="Our Design Management Experts provide the best services in project management, design, strategy, and incompasses the on going processes, business decisions to make your business innovative and sustainable."
             />
           </Col>
         </Row>

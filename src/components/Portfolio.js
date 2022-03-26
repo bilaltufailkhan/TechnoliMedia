@@ -39,9 +39,10 @@ const Portfolio = () => {
           </Col>
           <Col md="8" sm="12" className="py-5">
             <p className="mt-4">
-              We had an opportunity to work with a number of clients from
-              different industries and we are proud of taking part in their
-              projects.
+              Our biggest accomplishments inlcude taking part in numerous
+              projects and working with a number of clients from highly esteemed
+              industries. We take pride in our consistancy in always building a
+              satisfied customer.
             </p>
           </Col>
         </Row>

@@ -35,9 +35,8 @@ const Blog = (props) => {
           <Col md="6" xs="12">
             <h1>Our Blogs</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              Powering your Digital Dreams, Taking your Business ahead with our
+              Creativity and Ingenuity.
             </p>
           </Col>
         </Row>

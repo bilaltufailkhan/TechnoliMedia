@@ -7,7 +7,7 @@ const Contact = () => {
       <Container className="py-5">
         <Row className="justify-content-center align-items-center">
           <Col md="4">
-            <h1>Got A Project Or A Partnership In Mind?</h1>
+            <h1>Let us take care of your business with our expertise!</h1>
             <Row className="py-5">
               <Col lg="6" md="12">
                 <i class="fa-solid fa-phone"></i>

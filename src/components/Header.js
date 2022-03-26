@@ -11,10 +11,8 @@ const Header = () => {
           <Col md="5" sm="12" className="align-items-center pr-5">
             <h1>Marketing Agency</h1>
             <p>
-              We are a creative team of passionate people, that provides
-              comprehensive analysis and solutions for all your marketing needs.
-              We generate highly converting traffic by making use of advanced
-              online marketing methods and strategies.
+            Technoli Media has the exact expertise and tools to make sure you are making the right choice-always delivering more than expected.
+              
             </p>
             <Link to="/" className="get__started btn btn-lg px-3">
               Get Started

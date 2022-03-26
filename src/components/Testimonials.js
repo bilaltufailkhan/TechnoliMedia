@@ -15,10 +15,7 @@ const Testimonials = () => {
         <Row className="justify-content-center align-items-center py-4 mb-4">
           <Col xs="10">
             <h1>Client Reviews</h1>
-            <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod.
-            </span>
+            <span>Providing you Higly Reviewed Technoli Media.</span>
           </Col>
           <Col xs="2">
             <img

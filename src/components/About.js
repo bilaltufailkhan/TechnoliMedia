@@ -8,11 +8,10 @@ const About = () => {
         <Row>
           <Col xs="12" className="text-center">
             <h5>Who We Are</h5>
-            <h1>Work with Us, Not for Us</h1>
+            <h1>Managing your Business as if its Ours</h1>
             <p>
-              There are more than 100 definitions of marketing. But we
-              understand that marketing is what happens in every company here
-              and now: finding new solutions and launching new products.
+            Welcome to Technoli Media. Technoli Media: A platform of most creative and highly passionate professionals generating highly converting traffic by making use of advanced online marketing methods and strategies. Good Marketing makes the company look smart.
+              Great Marketing makes the customer feel smart.
             </p>
           </Col>
         </Row>

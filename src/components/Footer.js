@@ -24,10 +24,11 @@ const Footer = () => {
           <Col md="4" sm="12" className="my-4">
             <h5>About Us</h5>
             <p>
-              We are a creative team of passionate people , that provides
-              comprehensive analysis and solutions for all your marketing
-              needs.We generate highly converting traffic by making use of
-              advanced online marketing methods and strategies.
+              Welcome to Technoli Media. Technoli Media: A platform of most
+              creative and highly passionate professionals generating highly
+              converting traffic by making use of advanced online marketing
+              methods and strategies. Good Marketing makes the company look
+              smart. Great Marketing makes the customer feel smart.
             </p>
           </Col>
           <Col md="4" sm="12" className="my-4">
