@@ -25,9 +25,9 @@ const Grow = () => {
               together thousands of successful digital marketing campaigns by
               increasing leads, phone calls, transactions, and making the
               traffic flow on the website. We create maximum brand awareness on
-              Social Media Platforms to reach the maximum targeted audience.
+              social media platforms to reach the maximum targeted audience.
               Don't delay any further, Request a Free Strategy Proposal and get
-              a Gain Plan for elite revenue generation.
+              a game plan for revenue generation.
             </p>
             <Link to="/" className="readMore__post my-5">
               Learn More &nbsp;&nbsp;{" "}

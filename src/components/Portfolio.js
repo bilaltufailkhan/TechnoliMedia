@@ -41,8 +41,8 @@ const Portfolio = () => {
             <p className="mt-4">
               Our biggest accomplishments inlcude taking part in numerous
               projects and working with a number of clients from highly esteemed
-              industries. We take pride in our consistancy in always building a
-              satisfied customer.
+              industries. We take pride in our consistency and in always
+              building a satisfied customer.
             </p>
           </Col>
         </Row>
